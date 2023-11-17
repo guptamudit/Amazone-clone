@@ -107,6 +107,7 @@ body {
   font-family: futura;
   line-height: 14vw;
   letter-spacing: -8px;
+  text-align: center;
 }
 
 #video-container {
@@ -220,6 +221,46 @@ body {
   height: 100%;
 }
 
+#page4 {
+  min-height: 50vh;
+  /* background-color: bisque; */
+  width: 100vw;
+  /* margin-top: 15px; */
+  padding: 40px;
+  position: relative;
+}
+.page4head {
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+  /* width: 100vw; */
+  justify-content: space-evenly;
+  position: absolute;
+}
+.page4con2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  font-family: Gilroy;
+}
+
+.page4con1 {
+  font-family: futura;
+  font-size: 4.5vw;
+  margin-right: 50px;
+}
+#bottom {
+  margin-top: 10px;
+}
+#support {
+  margin-top: 36px;
+  text-decoration: none;
+  color: rgba(224, 139, 189, 0.814);
+}
+.page5 {
+  margin-top: 10px;
+  height: 20px;
+}
 @media (max-width: 650px) {
   #nav {
     /* height: 100px; */
@@ -336,7 +377,7 @@ body {
     width: 100%;
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
