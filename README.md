@@ -1,1 +1,1 @@
-# The Good Company 😋
+# Two Good Company 😋
